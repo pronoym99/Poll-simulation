@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-  int votes[6]={0,0,0,0,0,0},i,n,max=votes[0],pos;
+  int votes[6]={0},i,n,max=votes[0],pos;
   char ch;
   printf("Enter no. of voters:");
   scanf("%d",&n);
